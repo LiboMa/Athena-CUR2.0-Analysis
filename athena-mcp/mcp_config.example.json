@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "athena": {
+      "command": "/Users/malibo/MyDev/venv/bin/python",
+      "args": ["/Users/malibo/Desktop/athena-mcp/athena_mcp_server.py"],
+      "env": {
+        "AWS_REGION": "us-east-1",
+        "AWS_PROFILE": "default",
+        "ATHENA_WORKGROUP": "primary",
+        "ATHENA_OUTPUT_BUCKET": "s3://cost-explorer-billing-bedrock/athena-results/",
+        "ATHENA_DATABASE": "cur_db"
+      }
+    }
+  }
+}
